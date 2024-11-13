@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.productTypes;
 
 public class Chips implements Product {
     private String flavor;

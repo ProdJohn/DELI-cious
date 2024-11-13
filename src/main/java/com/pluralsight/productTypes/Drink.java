@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.productTypes;
 
 public class Drink implements Product {
     private String size;

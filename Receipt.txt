@@ -1,6 +1,6 @@
 Order ID: 12345
 Order Summary:
-Size: 4, Bread: white, Toasted: Yes, Toppings: [lettuce and tomato ($0.00)]
-Drink - Size: small, Flavor: Arizona tea, Price: $1.50
-Chips - Flavor: takis, Price: $1.00
+Size: 4, Bread: white, Toasted: Yes, Toppings: [tomato lettuce and banana and pickle ($0.00)]
+Drink - Size: medium, Flavor: pepsi, Price: $1.50
+Chips - Flavor: Hot cheetos, Price: $1.00
 Total Cost: $8.00

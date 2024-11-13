@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import com.pluralsight.productTypes.Product;
+
 import java.io.FileWriter;
 import java.io.IOException;
 

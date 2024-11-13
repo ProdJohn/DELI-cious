@@ -1,4 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.productTypes;
+
+import com.pluralsight.toppingTypes.Topping;
 
 import java.util.ArrayList;
 

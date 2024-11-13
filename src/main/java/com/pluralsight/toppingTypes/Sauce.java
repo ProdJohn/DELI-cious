@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.toppingTypes;
 
 public class Sauce extends Topping {
     public Sauce(String name, double price) {

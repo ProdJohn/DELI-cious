@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import com.pluralsight.productTypes.Product;
+
 import java.util.ArrayList;
 
 

@@ -1,5 +1,12 @@
 package com.pluralsight;
 
+import com.pluralsight.productTypes.Chips;
+import com.pluralsight.productTypes.Drink;
+import com.pluralsight.productTypes.Sandwich;
+import com.pluralsight.toppingTypes.Cheese;
+import com.pluralsight.toppingTypes.Meat;
+import com.pluralsight.toppingTypes.Veggies;
+
 import java.util.Scanner;
 
 public class App {
@@ -10,8 +17,16 @@ public class App {
 
         System.out.println("Welcome to the Prodigy Deli!");
         System.out.println("To begin, please let us know your order!");
-        System.out.println("Enter sandwich size (4, 8, 12): ");
-        String size = keyboard.nextLine();
+        String size;
+        while (true) {
+            System.out.println("Enter sandwich size (4, 8, 12): ");
+            size = keyboard.nextLine();
+            if (size.equals("4") || size.equals("8") || size.equals("12")) {
+                break;
+            } else {
+                System.out.println("Invalid size! Please enter 4, 8, or 12.");
+            }
+        }
         System.out.println("Enter bread type (white, wheat, rye, wrap): ");
         String breadType = keyboard.nextLine();
         System.out.println("Would you like the sandwich toasted? (yes/no): ");
