@@ -7,6 +7,6 @@ public class Sauce extends Topping {
 
     @Override
     public double getPrice() {
-        return price;  // No extra cost adjustments for sauce
+        return price;  //no added costs for sauce
     }
 }

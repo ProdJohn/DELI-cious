@@ -24,6 +24,12 @@ public class OrderScreen {
         }
         return total;
     }
+    public String getOrderID() {
+        return orderID;
+    }
+    public ArrayList<Product> getProducts() {
+        return products;
+    }
     public void printOrderSummary() {
         System.out.println("Order ID: " + orderID);
         System.out.println("Order Summary:");

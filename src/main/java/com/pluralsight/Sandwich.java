@@ -22,7 +22,6 @@ public class Sandwich implements Product {
         double totalCost = 5.00; // base price
 
         // sizing price differences below
-
         if ("8".equals(size)) {
             totalCost += 2.00;
         } else if ("12".equals(size)) {
@@ -30,13 +29,11 @@ public class Sandwich implements Product {
         }
 
         // each topping added price below
-
         for (Topping topping : toppings) {
             totalCost += topping.getPrice();
         }
 
         // the cost for toasting your bread below
-
         if (isToasted) {
             totalCost += 0.50;
         }
