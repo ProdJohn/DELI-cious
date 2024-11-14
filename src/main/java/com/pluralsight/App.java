@@ -12,11 +12,13 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        OrderScreen order = new OrderScreen("12345");
-        ReceiptManager receiptManager = new ReceiptManager();
-
         System.out.println("Welcome to the Prodigy Deli!");
+        System.out.println("Please enter your name for the order: ");
+        String customerName = keyboard.nextLine();
         System.out.println("To begin, please let us know your order!");
+
+        OrderScreen order = new OrderScreen("12345", customerName);
+        ReceiptManager receiptManager = new ReceiptManager();
         String size;
         while (true) {
             System.out.println("Enter sandwich size (4, 8, 12): ");

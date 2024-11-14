@@ -41,8 +41,14 @@ public class Sandwich implements Product {
         }
         return totalCost;
     }
+    public String getName() {
+        return "Sandwich";
+    }
     @Override
     public String toString() {
         return "Size: " + size + ", Bread: " + breadType + ", Toasted: " + (isToasted ? "Yes" : "No") + ", Toppings: " + toppings; // ternary operator basically if-else for toasted bread
+    }
+    public String getDescription() {
+        return size + "\" " + breadType + " Bread" + (isToasted ? ", Toasted" : "");
     }
 }

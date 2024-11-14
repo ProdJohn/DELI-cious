@@ -14,9 +14,15 @@ public class Drink implements Product {
     public double calculatePrice() {
         return price;
     }
+    public String getName() {
+        return "Drink";
+    }
     @Override
     public String toString() {
         return "Drink - Size: " + size + ", Flavor: " + flavor + ", Price: $" + String.format("%.2f", price);
+    }
+    public String getDescription() {
+        return size + " " + flavor;
     }
 }
 

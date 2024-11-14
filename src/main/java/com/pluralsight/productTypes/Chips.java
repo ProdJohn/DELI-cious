@@ -12,8 +12,14 @@ public class Chips implements Product {
     public double calculatePrice() {
         return price;
     }
+    public String getName() {
+        return "Chips";
+    }
     @Override
     public String toString() {
         return "Chips - Flavor: " + flavor + ", Price: $" + String.format("%.2f", price);
+    }
+    public String getDescription() {
+        return flavor;
     }
 }

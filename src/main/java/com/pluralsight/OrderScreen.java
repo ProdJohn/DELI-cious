@@ -7,10 +7,12 @@ import java.util.ArrayList;
 
 public class OrderScreen {
     private String orderID;
+    private String customerName;
     private ArrayList<Product> products;
 
-    public OrderScreen(String orderID) {
+    public OrderScreen(String orderID, String customerName) {
         this.orderID = orderID;
+        this.customerName = customerName;
         this.products = new ArrayList<>();
     }
     public void addItem(Product product) {
@@ -29,11 +31,15 @@ public class OrderScreen {
     public String getOrderID() {
         return orderID;
     }
+    public String getCustomerName() {
+        return customerName;
+    }
     public ArrayList<Product> getProducts() {
         return products;
     }
     public void printOrderSummary() {
         System.out.println("Order ID: " + orderID);
+        System.out.println("Customer: " + customerName);
         System.out.println("Order Summary:");
         for (Product product : products) {
             System.out.println(product);
