@@ -4,24 +4,24 @@ Dallas, TX 75202
 (469) 680-3140
 
 ORDER ID: 12345
-Customer: david
+Customer: Miranda
 Order Type: Dine In
-Date/Time: 11/14/2024 12:00 PM
+Date/Time: 11/14/2024 04:21 PM
 
 Order Summary:
 Sandwich
   4" wheat Bread, Toasted
-  $6.50
+  $5.50
 
 Drink
-  medium water
+  small coke
   $1.50
 
 Chips
-  hot cheetos
+  Flavor: funyuns
   $1.00
 
-Total Cost: $9.00
+Total Cost: $8.00
 
 We value your feedback!
 Visit our survey at www.prodigydeli.com/feedback

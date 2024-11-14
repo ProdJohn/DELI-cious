@@ -20,6 +20,7 @@ public class Chips implements Product {
         return "Chips - Flavor: " + flavor + ", Price: $" + String.format("%.2f", price);
     }
     public String getDescription() {
-        return flavor;
+        return "Flavor: " +flavor;
     }
+
 }

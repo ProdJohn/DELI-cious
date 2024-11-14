@@ -8,16 +8,19 @@ import java.util.ArrayList;
 public class OrderScreen {
     private String orderID;
     private String customerName;
-    private ArrayList<Product> products;
+    private ArrayList<Product> products; //encap
 
     public OrderScreen(String orderID, String customerName) {
         this.orderID = orderID;
         this.customerName = customerName;
         this.products = new ArrayList<>();
     }
+    //adds a product to the order below
+
     public void addItem(Product product) {
         products.add(product);
     }
+    //removes item from the order below
     public void removeItem(Product product) {
         products.remove(product);
     }

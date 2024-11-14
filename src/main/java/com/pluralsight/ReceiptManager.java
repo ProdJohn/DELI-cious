@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ReceiptManager {
 
     public void saveReceipt(OrderScreen order) {
-        String filename = "receipt" + order.getOrderID() + ".txt";
+        String filename = "receipt" + order.getOrderID() + ".txt"; //the receipt will print with the order ID in title
         try (FileWriter writer = new FileWriter(filename)) {
             // Store Header
             writer.write("PRODIGY DELI\n");
@@ -50,6 +50,7 @@ public class ReceiptManager {
             System.out.println("Receipt saved to " + filename);
         } catch (IOException e) {
             System.out.println("Error saving receipt: " + e.getMessage());
+
         }
     }
 }
