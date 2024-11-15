@@ -4,24 +4,24 @@ Dallas, TX 75202
 (469) 680-3140
 
 ORDER ID: 12345
-Customer: Miranda
+Customer: Jake
 Order Type: Dine In
-Date/Time: 11/14/2024 04:21 PM
+Date/Time: 11/15/2024 12:47 AM
 
 Order Summary:
 Sandwich
-  4" wheat Bread, Toasted
-  $5.50
+  8" white Bread, Toasted
+  $9.50
 
 Drink
-  small coke
+  medium pepsi
   $1.50
 
 Chips
-  Flavor: funyuns
+  Flavor: bbq
   $1.00
 
-Total Cost: $8.00
+Total Cost: $12.00
 
 We value your feedback!
 Visit our survey at www.prodigydeli.com/feedback

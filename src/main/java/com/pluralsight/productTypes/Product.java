@@ -5,4 +5,4 @@ public interface Product {
     String getName();
     String getDescription();
 }
-// created interface to implement price based on sandwich size, toppings, and drink class
+// created interface to handle my different product types
